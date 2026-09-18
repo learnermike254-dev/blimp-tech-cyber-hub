@@ -36,7 +36,7 @@ function BookingPage() {
     name: "",
     phone: "",
     email: "",
-    service: service ?? services[0].slug,
+    service: service ?? services[0]?.slug ?? "",
     date: "",
     time: "",
     notes: "",
